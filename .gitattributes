@@ -1,0 +1,24 @@
+# .gitattributes 
+* text=auto
+
+# keep code and shaders LF (portable)
+*.c     text eol=lf
+*.cpp   text eol=lf
+*.h     text eol=lf
+*.hpp   text eol=lf
+*.glsl  text eol=lf
+*.vert  text eol=lf
+*.frag  text eol=lf
+
+# allow CRLF for glm docs and web assets
+Libraries/glm/doc/** text eol=crlf
+*.html text eol=crlf
+*.js   text eol=crlf
+*.css  text eol=crlf
+
+# binaries never get EOL changes
+*.png -text
+*.jpg -text
+*.dll -text
+*.lib -text
+*.pdb -text
