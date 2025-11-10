@@ -1,8 +1,8 @@
 /Projects/*
 
 !/Projects/
-!/Projects/8-2_Assingment/
-!/Projects/8-2_Assingment/**
+!/Projects/8-2_Assignment/
+!/Projects/8-2_Assignment/**
 
 .vs/
 *.suo
